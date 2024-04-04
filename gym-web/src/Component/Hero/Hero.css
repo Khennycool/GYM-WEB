@@ -1,0 +1,65 @@
+.video-background {
+    width: 100%;
+    height: 80%;
+    /* object-fit: cover; */
+    /* z-index: -1; */
+   background: red;
+
+}
+
+.overlay {
+  /* position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 122%;
+  background-color: rgba(35, 45, 57, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white; */
+  position: absolute;
+    background-color: rgba(35, 45, 57, 0.8);
+    top: 0;
+    left: 0;
+    bottom: 7px;
+    height: 122%;
+    width: 100%;
+
+}
+
+.caption {
+  padding: 20px;
+  text-align: center;
+  position: absolute;
+  width: 80%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.caption h6 {
+  margin: 0;
+  font-size: 30px;
+  color: white;
+}
+
+.caption h2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 90px;
+  color: white;
+}
+
+.caption em {
+  font-style: normal;
+  color: blue;
+}
+
+.btn {
+
+
+} 
+
